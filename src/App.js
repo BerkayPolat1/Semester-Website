@@ -1,23 +1,25 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { data } from "./components/Data";
+import './index.css';
+import Backend from './components/Backend';
 import Frontend from "./components/Frontend";
-import Backend from "./components/Backend";
 import Home from "./components/Home";
-import SharedLayout from "./components/SharedLayout.js";
-import HomeDown from "./components/HomeDown";
+
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<SharedLayout />}>
-          <Route index element={<Home />} />
-          <Route path="backend" element={<Backend />} />
-          <Route path="frontend" element={<Frontend />} />
-        </Route>
-      </Routes>
-      {/* <footer> our Footer </footer> */}
-    </BrowserRouter>
+    <>
+      <Router>
+        <Routes>
+            <Route path='/backend' element={<Backend/>} />
+            <Route path='/frontend' element={<Frontend data={data} />} />
+            <Route path='/' element={<Home />} />
+        </Routes>
+      </Router>
+    </>
+    
   );
 }
 
 export default App;
+

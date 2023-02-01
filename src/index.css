@@ -18,15 +18,6 @@ code {
     monospace;
 }
 
-/* Navbar Styling */
-.navbar {
-  width: 90vw;
-  margin: 0 auto;
-  display: flex;
-  /* gap: 1rem; */
-  background: blue;
-}
-
 
 /* Home Styling */
 
