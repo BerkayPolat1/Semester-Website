@@ -12,9 +12,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
             <Route path="/backend" element={<Backend />} />
             <Route path="/frontend" element={<Frontend data={data} />} />
-            <Route path="/" element={<Home />} />
           </Route>
         </Routes>
       </Router>
