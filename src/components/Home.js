@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-      <Navbar />
       <section className="home_container">
         <div className="home_header_section">
           <h1 className="home_header"> Welcome to the World of Web Development </h1>

@@ -113,7 +113,6 @@ const Frontend = (props) => {
 
   return (
     <div>
-      <Navbar />
       <div className="wrapper" ref={scrollArea}>
         <section className="header">
           <div className="container-home">

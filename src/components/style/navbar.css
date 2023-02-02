@@ -41,6 +41,8 @@
 .logo-navbar{
     font-size: 30px;
     color: black;
+    letter-spacing: 2px;
+    font-style: italic;
 }
 
 button{

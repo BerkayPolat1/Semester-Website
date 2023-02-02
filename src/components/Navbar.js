@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container_navbar">
         <h3 className="logo">
           <Link to="/">
-            <div className='logo-navbar'>logo</div>
+            <div className='logo-navbar'>LOGO</div>
           </Link>
         </h3>
         <ul
