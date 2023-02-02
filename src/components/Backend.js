@@ -5,7 +5,7 @@ function Backend() {
   return (
     <div>
       <Navbar />
-      <h2> Anani sikeyim Yiğit Efe </h2>
+      <h2> Welcome </h2>
     </div>
   )
 }
